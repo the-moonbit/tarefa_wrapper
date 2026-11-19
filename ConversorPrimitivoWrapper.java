@@ -13,14 +13,12 @@ public class ConversorPrimitivoWrapper {
         //fazer a conversão para o tipo wrapper;
         Integer valorWrapper = valorPrimitivo; 
 
-        //imprimir novamente no console com a variável wrapper
         System.out.println("----------------------------------------");
         System.out.println("Valor primitivo lido: " + valorPrimitivo);
         System.out.println("Valor convertido (Wrapper - Integer): " + valorWrapper);
         System.out.println("Tipo do objeto wrapper: " + valorWrapper.getClass().getName());
         System.out.println("----------------------------------------");
 
-        //fecha o scanner
         scanner.close();
     }
 }
